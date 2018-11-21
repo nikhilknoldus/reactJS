@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apollo-boost": "^0.1.21",
+    "graphql": "^14.0.2",
     "husky": "^1.1.4",
     "lint-staged": "^8.0.5",
     "prettier": "^1.15.2",
     "react": "^16.6.3",
+    "react-apollo": "^2.3.1",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
@@ -20,8 +23,8 @@
   },
   "lint-staged": {
     "*.js": [
-        "yarn run pretty",
-        "git add"
+      "yarn run pretty",
+      "git add"
     ]
   },
   "eslintConfig": {
